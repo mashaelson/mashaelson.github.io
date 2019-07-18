@@ -11,4 +11,6 @@ ul {list-style: none;}
         float: left;
         width:114px;
 }
+.box{border: 5px double rgba(23,10,.45);
+}
 

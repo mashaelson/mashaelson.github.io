@@ -1,0 +1,7 @@
+body {background-color: gray}
+.topnav {background-color: black}
+.topnav a {color: white;
+        font-size:16px;
+        text-align: center;
+}
+

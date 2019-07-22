@@ -1,16 +1,25 @@
-body {background-color: gray}
-.topnav {background-color: black}
-.topnav a {color: white;
-        font-size:16px;
-        text-align: center;
-        text-decoration: none;
-        padding: 4px;
+html{background-image: url("background1.jpg");
+background-size: 100% auto;}
+body 
+.topnav {background-color: transparent;
 }
-ul {list-style: none;}
+.topnav a {color: white;
+font-size:16px;
+text-decoration: none;
+position: absolute;  
+}
+ul {list-style: none;
+display: inline-block;
+}
 #topnav li {display: block;
-        float: left;
-        width:114px;
+float: left;
+width:140px;
+padding: 40px;
+padding-top: 0px;     
+}
+.topnav a:hover {color: white;
+font-size: 18px;
+position: absolute;
 }
 .box{border: 5px double rgba(23,10,.45);
 }
-

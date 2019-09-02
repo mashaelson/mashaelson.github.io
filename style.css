@@ -1,25 +1,53 @@
-html{background-image: url("background1.jpg");
-background-size: 100% auto;}
-body 
-.topnav {background-color: transparent;
+html{background-image: url("bg.jpg");
+background-size: 100% auto;
+} 
+.topnav {background-color: black;
 }
-.topnav a {color: white;
-font-size:16px;
-text-decoration: none;
-position: absolute;  
+.portbtn{
+  height: 300px;
+  width: 300px;
+  font-size:35px;
+  font-family: "courier", "monospace";
+  margin-right: 70;
+  margin-left: 9%;
+  position: absolute;
+  border:solid;
+  border-radius:10px;
 }
-ul {list-style: none;
-display: inline-block;
+.portbtn:hover{
+  font-size:40px;
+  background: rgb(238, 230, 255);
 }
-#topnav li {display: block;
-float: left;
-width:140px;
-padding: 40px;
-padding-top: 0px;     
+.Aboutbtn{
+  height:300px;
+  width: 300px;
+  font-size: 35px;
+  font-family: "courier", "monospace";
+  margin-left: 37%;
+  position: absolute;
+  border: solid;
+  border-radius: 10px;
 }
-.topnav a:hover {color: white;
-font-size: 18px;
-position: absolute;
+.Aboutbtn:hover{
+  font-size:40px;
+  background: rgb(238, 230, 255);
+}
+.contactbtn{
+  height:300px;
+  width: 300px;
+  font-size: 35px;
+  font-family: "courier", "monospace";
+  position: absolute;
+  margin-left: 65%;
+  border: solid;
+  border-radius: 10px;
+}
+.contactbtn:hover{
+  font-size:40px;
+  background: rgb(238, 230, 255);
 }
 .box{border: 5px double rgba(23,10,.45);
+margin-left: 200px;
+margin-right: 200px;
+background: hsl(0, 0%, 100%, .3)
 }

@@ -1,0 +1,8 @@
+html{background-image: url("background1.jpg");
+background-size: 100% auto;
+} 
+.box{border: 5px double rgba(23,10,.45);
+margin-left: 200px;
+margin-right: 200px;
+background: hsl(0, 0%, 100%, .3)
+}

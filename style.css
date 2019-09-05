@@ -9,7 +9,7 @@ background-size: 100% auto;
   width: 300px;
   font-size:35px;
   font-family: "courier", "monospace";
-  margin-right: auto;
+  margin-right: 10%;
   margin-left: 15%;
   position: absolute;
   border:solid;
@@ -43,7 +43,7 @@ background-size: 100% auto;
   font-family: "courier", "monospace";
   position: absolute;
   margin-right: 15%;
-  margin-left: auto;
+  margin-left: 10%;
   border: solid;
   border-radius: 10px;
 }

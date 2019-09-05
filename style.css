@@ -4,12 +4,13 @@ background-size: 100% auto;
 .topnav {background-color: black;
 }
 .portbtn{
+  max-width: 500px;
   height: 300px;
   width: 300px;
   font-size:35px;
   font-family: "courier", "monospace";
-  margin-right: 70;
-  margin-left: 9%;
+  margin-right: 9%;
+  margin-left: auto;
   position: absolute;
   border:solid;
   border-radius:10px;
@@ -19,11 +20,12 @@ background-size: 100% auto;
   background: rgb(238, 230, 255);
 }
 .Aboutbtn{
+  max-width: 500px;
   height:300px;
   width: 300px;
   font-size: 35px;
   font-family: "courier", "monospace";
-  margin-left: 37%;
+  margin-left: 50%;
   position: absolute;
   border: solid;
   border-radius: 10px;
@@ -33,12 +35,13 @@ background-size: 100% auto;
   background: rgb(238, 230, 255);
 }
 .contactbtn{
+  max-width: 500px;
   height:300px;
   width: 300px;
   font-size: 35px;
   font-family: "courier", "monospace";
   position: absolute;
-  margin-left: 65%;
+  margin-right: auto;
   border: solid;
   border-radius: 10px;
 }
